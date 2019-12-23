@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/pad_numeric_background_color"
+    android:orientation="vertical">
+
+    <com.weebinatidi.ui.widget.CalculatorNumericPadLayout
+        android:id="@+id/pad_numeric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register_invoice"
+        android:columnCount="3"
+        android:rowCount="4">
+
+        <Button
+            android:id="@+id/digit_7"
+            style="@style/PadButtonStyle.Numeric"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/digit_8"
+            style="@style/PadButtonStyle.Numeric"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/digit_9"
+            style="@style/PadButtonStyle.Numeric"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/digit_4"
+            style="@style/PadButtonStyle.Numeric"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/digit_5"
+            style="@style/PadButtonStyle.Numeric"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/digit_6"
+            style="@style/PadButtonStyle.Numeric"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/digit_1"
+            style="@style/PadButtonStyle.Numeric"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/digit_2"
+            style="@style/PadButtonStyle.Numeric"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/digit_3"
+            style="@style/PadButtonStyle.Numeric"
+            android:onClick="onButtonClick" />
+
+
+        <Button
+            android:id="@+id/digit_0"
+            style="@style/PadButtonStyle.Numeric"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/digit_00"
+            style="@style/PadButtonStyle.Numeric"
+            android:onClick="onButtonClick" />
+
+        <ImageButton
+            android:id="@+id/export_dataold"
+            style="@style/PadButtonStyle.Numeric"
+            android:backgroundTint="@color/pad_advanced_background_color"
+            android:onClick="onButtonClick"
+            android:src="@drawable/ic_save_white_24dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/export_data"
+            style="@style/PadButtonStyle.Numeric"
+            android:onClick="onButtonClick" />
+
+    </com.weebinatidi.ui.widget.CalculatorNumericPadLayout>
+</LinearLayout>

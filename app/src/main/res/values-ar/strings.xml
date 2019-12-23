@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Name of the application. [CHAR_LIMIT=NONE] -->
+    <string name="app_name">weebi</string>
+
+    <!-- Error displayed when expression evaluates to NaN. [CHAR_LIMIT=14] -->
+    <string name="error_nan">ليس عددا</string>
+    <!-- Error displayed when expression contains a syntax error. [CHAR_LIMIT=14] -->
+    <string name="error_syntax">Error</string>
+
+    <!-- Abbrev. name of cosine function (e.g. "cos(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_cos">cos</string>
+    <!-- Natural logarithm function (e.g. "ln(2)"). [CHAR_LIMIT=3] -->
+    <string name="fun_ln">ln</string>
+    <!-- Logarithm function (e.g. "log(10)"). [CHAR_LIMIT=3] -->
+    <string name="fun_log">log</string>
+    <!-- Abbrev. name of sine function (e.g. "sin(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_sin">sin</string>
+    <!-- Abbrev. name of tangent function (e.g. "tan(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_tan">tan</string>
+
+    <!-- Clear operation to clear the currently entered expression. [CHAR_LIMIT=3] -->
+    <string name="clr">ac</string>
+    <!-- Delete operation to remove last entered token. [CHAR_LIMIT=3] -->
+    <string name="del">c</string>
+
+    <!-- Content Descriptions -->
+    <eat-comment />
+
+    <!-- Content description for 'e' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_const_e">Euler\'s number</string>
+    <!-- Content description for 'π' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_const_pi">pi</string>
+
+    <!-- Content description for '.' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_dec_point">point</string>
+
+    <!-- Content description for '(' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_lparen">left parenthesis</string>
+    <!-- Content description for ')' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_rparen">right parenthesis</string>
+
+    <!-- Content description for 'cos' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_cos">cosine</string>
+    <!-- Content description for 'ln' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_ln">natural logarithm</string>
+    <!-- Content description for 'log' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_log">logarithm</string>
+    <!-- Content description for 'sin' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_sin">sine</string>
+    <!-- Content description for 'tan' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_tan">tangent</string>
+
+    <!-- Content description for '+' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_add">plus</string>
+    <!-- Content description for '÷' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_div">divide</string>
+
+    <!-- Content description for 'ok' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_ok">Valide</string>
+    <!-- Content description for '!' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_perc">percentage</string>
+    <!-- Content description for '×' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_mul">times</string>
+    <!-- Content description for '^' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_pow">power</string>
+    <!-- Content description for '√' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_sqrt">square root</string>
+    <!-- Content description for '-' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_sub">minus</string>
+
+    <!-- Content description for "clr" button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_clr">clear</string>
+    <!-- Content description for "del" button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_del">delete</string>
+    <!-- Content description for '=' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_eq">equals</string>
+    <string name="title_activity_client_list">الزبائن</string>
+
+
+    <string name="title_activity_client_page">زبون</string>
+    <string name="title_activity_invoice_list">وصل </string><!-- Factures -->
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_invoice_details">التفاصيل</string>
+    <string name="error_empty_field_msg">يرجى ملء في هذا الفراغ.</string>
+    <string name="double_zero">00</string>
+    <string name="triple_zero">000</string>
+    <string name="print_invoice_title">طباعة</string>
+
+
+    <string name="op_ok">OK</string>
+
+    <string name="search_contact_hint">البحث عن طريق الرقم</string>
+
+
+    <string name="client_deposit">تسجيل مقدما أو وديعة.</string>
+    <string name="delete_invoice">محو</string>
+    <string name="restore_invoice">استعادة الفاتورة</string>
+    <string name="archived_invoices">الفواتيرالمؤرشفة</string>
+    <!--<string name="archives_clients">ارشيف الزبائن</string>-->
+    <string name="alphabetical_sorting">ترتيب أبجديا</string>
+    <string name="balance_sorting">الترتيب حسب المبلغ</string>
+
+    <string name="empty_field">لا يمكن أن تكون فارغة</string>
+    <string name="numalreadyused">هذا الرقم هو قيد الاستخدام من قبل زبون آخر.</string>
+    <string name="numnomatch">الأرقام لا تتطابق.</string>
+    <string name="dropit">إلغاء</string>
+    <string name="validate">تأكيد</string>
+    <string name="registerdepot">توديع مبلغ</string>
+    <!--<string name="textdepot">تسجيل مقدما أو وديعة</string>-->
+
+    <string name="emptysolde">يرجى وضع المبلغ</string>
+    <string name="solderegistersuccess">تم حفظ المبلغ.</string>
+    <string name="yes">Oui</string>
+
+    <!--<string name="senddata">حفظ وتحليل البيانات الخاصة بك</string>-->
+
+
+    <string name="defaultclient">بيع</string>
+    <!--<string name="client_add_torepo_andinvoice_saved">تم حفظ اول زبون وأول فاتورة،تهانينا!</string>-->
+    <string name="none_found">لم يعثر على الجهاز.</string>
+    <string name="select_device">تحديد الجهاز.</string>
+    <string name="none_paired">لايوجد جهاز متصل.</string>
+    <string name="scanning">البحث جاري...</string>
+    <string name="strLang">fr</string>
+    <string name="button_scan">الماسح الضوئي</string>
+
+
+    <!-- <string name="app_name">PrintDemo</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_found">No devices found</string>
+    <string name="strLang">en</string>
+    <string name="button_scan">Scan for devices</string> -->
+    <string name="btnSearch">توصيل طابعة بلوتوث</string>
+    <!--<string name="btnSend">طبع</string>-->
+
+
+    <string name="btnClose">قفل</string>
+    <string name="txt_content">&quot;&quot;</string>
+    <!--<string name="menu_settings">set</string>-->
+    <string name="error_mail_not_valid">بريد إلكتروني غير صالح</string>
+    <!--<string name="needphoto">إضافة شعار</string>-->
+    <string name="send_invoice_title">مشاركة مع...</string>
+    <!--<string name="vente_cash">بيع</string>-->
+    <string name="reference"> اسم المنتج</string>
+    <string name="prix">سعر</string>
+    <string name="quantite">كمية</string>
+    <string name="select_customer">رجاء اختيار زبون.</string>
+    <string name="edited_client_ok">+1 زبون تم تغيره بنجاح</string>
+    <!--<string name="client_balance_ok">+1 زبون مع المبلغ</string>-->
+    <string name="type_number_again"> اعادة كتابة الرقم</string>
+    <string name="phone_number"> رقم الهاتف</string>
+    <string name="name">اسم</string>
+    <string name="Balance">مبلغ</string>
+    <string name="mail">بريد إلكتروني</string>
+    <string name="user_info">تغير معلوماتكم</string>
+    <string name="save_info_first">احفظو معلوماتكم.</string>
+    <string name="select_option">اختار</string>
+    <string name="Take_picture">أخذ صورة</string>
+    <string name="Select_picture">اختيار صورة.</string>
+    <string name="logo">اختيار الشعار الخاص بك</string>
+    <string name="Type_references">اختيار العملية :</string>
+    <!--<string name="Cash_Sale">بيع</string>-->
+
+    <string name="invoice_saved">تم حفظ الفاتورة.</string>
+    <string name="invoice_number">الفاتورة: استلمت # </string>
+    <string name="invoice_depot_number">وديعة : استلمت # </string>
+    <string name="Currency">CFA</string>
+    <string name="total">الجميع : </string>
+    <string name="Clientwithpositivebalancecreated">+1 زبون</string>
+    <string name="businessinfoupdated">تم تحديث المعلومات</string>
+    <string name="businessinfosetup">تم اعداد حسابكم!</string>
+    <string name="invoicenumber">فاتورة# :</string>
+    <string name="date">التاريخ:</string>
+    <string name="totalinvoice">المجموع:</string>
+    <string name="details">التفاصيل</string>
+    <string name="deleteinvoices">فواتير ممسوحة</string>
+    <string name="confirm_restore_invoice">تأكيد استعادة الفاتورة</string>
+
+
+    <string name="client_need_tobecreated">ليس لديك عميل رجاء إنشاء واحد</string>
+    <string name="exemple_depot"> مثال : 5000</string>
+    <string name="ajouter_un_client">اضافة زبون</string>
+    <string name="operations">عمليات (x)</string>
+    <string name="client">زبون:</string>
+    <!--<string name="please_select_client">رجاء اختيار زبون.</string>-->
+    <string name="businessinfo">الإسم نينيا</string>
+    <string name="uploadreferences">إستراد المراجع</string>
+    <string name="configimprimante">توصيل الطابعة</string>
+
+    <string name="nobluetoothpaired">البلوتوث غير مفعل </string>
+    <string name="printingprocessing">جاري الطباعة...</string>
+    <!--<string name="bluetoothconnectionwaslost">الطابعة ليست موصولة</string>-->
+    <string name="blueconnectinlost">الطابعة ليست موصولة</string>
+    <string name="blueconnectionsuccess">تم ايصال الطابعة</string>
+    <!-- <string name="photoboutikajoute">تم اضافة شعاركم</string>-->
+    <!--<string name="photoboutiknonajoute">لم يتم اعادة شعاركم</string>-->
+    <string name="telegrambuildertitle">تنزيل Telegram</string>
+    <string name="telegrambuildermsg">"ليس لديكم Telegramاضغطو على نعم للتنزيل"</string>
+    <string name="weebibotsettitle">توصيل الروبو weebi</string>
+    <string name="weebibotsetmsg">اضغطو على هاذ الموقع لتوصيل الروبو weebi</string>
+
+
+    <string name="telegram_not_installed">Telegram لم يتم حفظ</string>
+
+
+    <string name="shop_name">"إسم الحانوت : "</string>
+    <string name="shop_call">" \nالرقم: "</string>
+    <string name="client_name">" \nاسم الزبون: "</string>
+    <string name="client_call">" \nرقم الزبون: "</string>
+    <string name="vente">" \" \nبيع "</string>
+    <string name="facture_of">"\nفاتورة  : "</string>
+    <string name="montant">"\nالمبلغ: "</string>
+    <string name="montant_egale">"المبلغ = "</string>
+    <string name="depot">" \nوديعة "</string>
+    <string name="solde_ajoute">"\nتم اضافة المبلغ: "</string>
+    <string name="reference_unit_total">" اسم المنتج        / الوحدة/ المجموع "</string>
+    <string name="solde_final">"\n المجموع النهائي:         "</string>
+    <string name="merci">\n شكرا لثقتكم. \n</string>
+    <string name="depot_du">"وديعة "</string>
+    <string name="edit_client">تغير الزبون</string>
+
+    <!-- <string name="configure_imprimante">توصيل الطابعة</string>-->
+    <!-- <string name="texte1">"لتوصيل طابعتكم "</string>
+     <string name="texte2">"يجب عليك اختيار واحد الذي يناسبك من القائمة التالية انقر فوق موافق "</string>
+     <string name="text3">للمضي قدما</string>-->
+    <string name="enregistrer_acompte">حفظ حساب.</string>
+    <!--<string name="telecharger_telegram">تنزيل Telegram</string>-->
+    <string name="ajouter_robot_weebi">اضافة الروبو weebi</string>
+    <string name="facture_enregistree">تم حفظ الفاتورة</string>
+    <string name="archives_factures">أشيف الفواتير</string>
+    <string name="facture">"فاتورة "</string>
+    <string name="facture_supprimee">فاتورة ممحية</string>
+    <string name="credit_client">" \nدين الزبون: "</string>
+    <string name="ligne">\n ______________________________\n</string>
+    <string name="espace_total">"\n              المجموع: "</string>
+    <!--<string name="cfa">" CFA"</string>-->
+    <string name="oui">نعم</string>
+    <string name="annuler">إلغاء</string>
+    <string name="confirmer_suppressio_facture">"تأكيد مسح الفاتورة"</string>
+    <string name="remboursement">" تعويض"</string>
+    <string name="liste_des_clients">قائمة الزبائن</string>
+    <string name="enregistrer_depot">تسجيل الايداع</string>
+    <string name="liste_des_factures_button">قائمة الفواتير</string>
+    <string name="enregistrer_une_vente">Weebi...</string>
+    <string name="start_scan">Start Scan</string>
+    <string name="de">من :</string>
+
+    <string name="choix_langue">اختيار اللغة</string>
+    <string name="anglais">الإنجليزية</string>
+    <string name="français">الرجل الفرنسي</string>
+    <string name="arabe">العربي</string>
+    <string name="filtrer_par_date">ترتيب حسب التاريخ</string>
+    <string name="filtrer_par_balance">ترتيب حسب المبلغ</string>
+
+    <string-array name="database">
+
+
+        <item> مختلف</item> 
+              
+    </string-array>
+    <string name="facebook_app_id">136691900177350</string>
+    <string name="ajouter_une_r_f_rence">إضافة مرجع</string>
+    <string name="reference_existe" />
+    <string name="add_reference">تعديل إشارة</string>
+    <string name="nom_reference">اسم الإشارة</string>
+    <string name="r_f_rences">مراجع</string>
+    <string name="modifier_reference">تعديل إشارة</string>
+    <string name="title_reference">مراجع</string>
+    <string name="inscription">inscription</string>
+    <string name="email" />
+    <string name="lenom">Password</string>
+    <string name="hint_password">password</string>
+    <string name="sinscrire">Inscription</string>
+    <string name="sauvegarder" />
+    <string name="connexion">Connexion</string>
+    <string name="con_firebase">Connexion</string>
+    <string name="connectionreussi">Connexion réussi :</string>
+    <string name="connectionechec">Connexion échoué</string>
+    <string name="authenticatefailed">Authentification échouée</string>
+    <string name="inscriptionreussi">Inscription Réussi</string>
+    <string name="createuserfbgood">createUserWithEmail:onComplete:</string>
+    <string name="pasemailgoogle">Pas d\'email google</string>
+    <string name="soldeimpression">\nSolde :</string>
+    <string name="dateticket">Date : </string>
+    <string name="sauvegardedonnees">Données sauvegardées</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

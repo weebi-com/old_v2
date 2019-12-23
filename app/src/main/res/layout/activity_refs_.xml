@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.weebinatidi.ui.Factures_Activity">
+
+
+
+        <RelativeLayout
+            android:id="@+id/layoutgche"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:gravity="center_vertical">
+            <Button
+                android:id="@+id/fiu"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/market"
+                android:gravity="end"
+                android:backgroundTint="#fff"/>
+            <Button
+                android:id="@+id/addqte"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/fiu"
+                android:background="@drawable/stockenter"
+                android:gravity="end" />
+            <Button
+                android:id="@+id/dimqte"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/sortistock"
+                android:gravity="end"
+                android:layout_below="@+id/addqte"
+                android:backgroundTint="#FFF" />
+            <Button
+                android:id="@+id/price"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/dimqte"
+                android:layout_margin="5dp"
+                android:background="@drawable/priceeuro"
+                android:gravity="end"
+                android:backgroundTint="#FFF"/>
+            <Button
+                android:id="@+id/updatename"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/price"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/editref"
+                android:backgroundTint="#FFF"/>
+            <Button
+                android:id="@+id/suppref"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/tag_remove"
+                android:gravity="end"
+                android:backgroundTint="#FFF"
+                android:layout_below="@+id/updatename"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginLeft="105dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENTREES : "
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <!--<TextView
+                android:id="@+id/nbrefacture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold" />-->
+            <TextView
+                android:id="@+id/stock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+        <ListView
+            android:id="@+id/suivistockent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="30dp"
+            />
+
+
+    <!-- -->
+</RelativeLayout>

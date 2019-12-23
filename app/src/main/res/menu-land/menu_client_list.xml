@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.weebinatidi.ui.ClientListActivity">
+
+
+    <item
+        android:id="@+id/client_archived"
+        android:icon="@drawable/address_book"
+        android:title="@string/alphabetical_sorting"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

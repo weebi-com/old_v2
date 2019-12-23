@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.weebinatidi">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <meta-data
+        android:name="firebase_crashlytics_collection_enabled"
+        android:value="false" />
+
+    <supports-screens
+        android:compatibleWidthLimitDp="600"
+        android:largeScreens="true"
+        android:largestWidthLimitDp="600"
+        android:normalScreens="false"
+        android:requiresSmallestWidthDp="600"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name=".WeebiApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/downloadfile"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/CalculatorTheme"
+        tools:replace="android:theme">
+        <activity
+            android:name=".ui.StartActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.APP_CALCULATOR" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.CalculatorGB"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.CalculatorL"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ui.ClientListActivitySQL"
+            android:parentActivityName=".ui.StartActivity"
+            android:theme="@style/BokkTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.weebinatidi.ui.StartActivity" />
+        </activity>
+        <activity
+            android:name=".ui.InvoiceListActivity"
+            android:label="@string/title_activity_invoice_list"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.InvoiceDetailsActivity"
+            android:label="@string/title_activity_invoice_details"
+            android:noHistory="true"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.weebi2.InvoiceDetailsActivitySQL"
+            android:label="@string/title_activity_invoice_details"
+            android:noHistory="true"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.weebi2.InvoiceSuppActivitySQL"
+            android:noHistory="true"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.weebi2.DepotDetailsActivitySQL"
+            android:label="@string/title_activity_invoice_details"
+            android:noHistory="true"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.weebi2.DeleteInvoicesListActivitySQL"
+            android:label="@string/deleted_invoice_list"
+            android:theme="@style/BokkTheme" />
+        <activity android:name=".ui.PrintDemo" />
+        <activity
+            android:name=".ui.weebi2.Parametres"
+            android:label="INFOS"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.weebi2.Parametres2"
+            android:label="INFOS"
+            android:theme="@style/BokkTheme2" />
+        <!-- android:screenOrientation="portrait" -->
+        <!--
+            <activity
+            android:name="com.weebinatidi.ui.IntroActivity"
+            android:noHistory="true"
+            android:theme="@style/BokkTheme2" />
+        -->
+
+
+        <!-- <category android:name="android.intent.category.APP_CALCULATOR" /> -->
+        <activity
+            android:name=".ui.SplashActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.weebi.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        -->
+
+        <activity android:name=".ui.DeviceListActivity" />
+        <activity
+            android:name=".ui.print.PrintDemo"
+            android:parentActivityName=".ui.InvoiceDetailsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.weebinatidi.ui.InvoiceDetailsActivity" />
+        </activity>
+        <activity
+            android:name=".ui.print.ConfigurerImprime"
+            android:parentActivityName=".ui.InvoiceDetailsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.weebinatidi.ui.InvoiceDetailsActivity" />
+        </activity>
+        <activity android:name=".ui.print.DeviceListActivity" />
+        <activity android:name=".ui.print.DiscoverPrinterListActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".ui.References"
+            android:label="@string/title_reference"
+            android:theme="@style/BokkTheme2" />
+
+        <service android:name=".ServiceSauvegardata" />
+
+        <!--
+            <activity android:name=".ui.FacturesSelect"
+            android:theme="@style/BokkTheme2"></activity>
+        -->
+        <activity
+            android:name=".ui.FacturesSelect"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.weebi2.FacturesSelectSQL"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.ClientPageActivityNew"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.ClientPageActivityNew2"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.ClientPageActivityNew2SQL"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.ClientPagePortrait"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.ClientPagePortraitSql"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.Usbimprime"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.DeviceListDialogActivity"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.ImprimeText"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.Factures_Activity"
+            android:label="@string/title_activity_factures_" />
+        <activity
+            android:name=".ui.Depots_Activity"
+            android:label="@string/title_activity_depots_" />
+        <activity
+            android:name=".ui.weebi2.NewInterface"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- valeur mise pour Crashlisting avec weebi -->
+        <activity android:name=".ui.weebi2.ClientListActivityFb" />
+        <activity android:name=".ui.weebi2.Referencesfb" />
+        <activity
+            android:name=".ui.weebi2.ReferencesSQL"
+            android:label="Inventaire"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.weebi2.ReferencesSQLGrossiste"
+            android:label="References Grossistes"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.weebi2.Main4Activity"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.DrawerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.weebi2.GestRefSql"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.weebi2.SalesOfDayActivity"
+            android:label="@string/title_activity_sales_of_day"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.weebi2.AjouterRefSQL"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.weebi2.ModifierRefSQL"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.weebi2.SalesByPeriodActivity"
+            android:label="@string/title_activity_sales_by_day"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".bluetooth.AddPrinterActivity"
+            android:label="Configurer la tablette a l&apos;imprimante"
+            android:noHistory="true"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".bluetooth.BTPairedPrinterListActivity"
+            android:theme="@style/BokkTheme2" />
+        <activity android:name=".bluetooth.ConnectPrinterToWeebiByBTActivity" />
+        <activity
+            android:name=".bluetooth.BTConnectDeviceListActivity"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.weebi2.Autorisations"
+            android:theme="@style/BokkTheme2" />
+        <activity
+            android:name=".ui.weebi2.Activity_Lot"
+            android:theme="@style/BokkTheme2" />
+
+        <activity
+            android:name=".ui.weebi2.ExportSalesDataCsvByDayActivity"
+            android:label="Expoter au format CSV"
+            android:theme="@style/BokkTheme2" />
+
+        <activity
+            android:name=".ui.weebi2.Purchaseref"
+            android:label="Purchase"
+            android:theme="@style/BokkTheme2" />
+
+    </application>
+
+</manifest>

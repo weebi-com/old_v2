@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    android:background="@color/pad_numeric_background_color"
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pad_numeric_background_color"
+    android:orientation="vertical">
+    <!--    android:inputType="textPersonName" -->
+    <EditText
+        android:id="@+id/search_client"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:textColor="#fff"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="5"
+        android:cursorVisible="false"
+        android:completionThreshold="1"
+        ><!-- cette ligne permet de faire la recherche à partir d'une lettre-->
+    </EditText>
+
+    <ListView
+        android:id="@+id/lalisteV2"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/clavnl"
+        android:layout_below="@+id/lalisteV2">
+        <include
+            layout="@layout/clavier_numligne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <include
+            layout="@layout/clavier_lettre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

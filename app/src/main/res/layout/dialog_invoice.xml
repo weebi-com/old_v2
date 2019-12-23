@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/invoice_total_label"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:id="@+id/invoice_item_list_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/invoice_item_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+        </ScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/invoice_total_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/invoice_total"
+        android:layout_marginTop="8dp"
+        android:gravity="right"
+        android:hint="@string/total"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/invoice_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:hint="@string/total"
+        android:textSize="22sp" />
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/display_background_color"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:id="@+id/listerefsql"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/layoutgche"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@id/listerefsql"
+        android:background="#000"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/addref"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/ajoutreference"
+            android:gravity="end" />
+        <Button
+            android:id="@+id/addmultiple"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/stock"
+            android:gravity="end"
+            android:backgroundTint="#FFF"/>
+        <Button
+            android:id="@+id/selecttags"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/majrefweebi"
+            android:gravity="end"
+            android:backgroundTint="#FFF"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

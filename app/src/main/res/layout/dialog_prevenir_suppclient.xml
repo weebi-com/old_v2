@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pad_numeric_background_color"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <!--    android:inputType="textPersonName" -->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linenum"
+        android:layout_below="@+id/linenom">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="La suppression du client entrainera la perte de toutes ces données.
+            Voulez vous continuer."
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linenum"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/annule"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:src="@drawable/annuler" />
+        <ImageView
+            android:id="@+id/okconfcash"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:src="@drawable/ok"
+            android:tint="@color/md_indigo_A100" />
+
+    </LinearLayout>
+
+</RelativeLayout>

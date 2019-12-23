@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">weebi</string>
+
+    <!-- Error displayed when expression evaluates to NaN. [CHAR_LIMIT=14] -->
+    <string name="error_nan">Not a number</string>
+    <!-- Error displayed when expression contains a syntax error. [CHAR_LIMIT=14] -->
+    <string name="error_syntax">Error</string>
+
+    <!-- Abbrev. name of cosine function (e.g. "cos(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_cos">cos</string>
+    <!-- Natural logarithm function (e.g. "ln(2)"). [CHAR_LIMIT=3] -->
+    <string name="fun_ln">ln</string>
+    <!-- Logarithm function (e.g. "log(10)"). [CHAR_LIMIT=3] -->
+    <string name="fun_log">log</string>
+    <!-- Abbrev. name of sine function (e.g. "sin(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_sin">sin</string>
+    <!-- Abbrev. name of tangent function (e.g. "tan(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_tan">tan</string>
+
+    <!-- Clear operation to clear the currently entered expression. [CHAR_LIMIT=3] -->
+    <string name="clr">ac</string>
+    <!-- Delete operation to remove last entered token. [CHAR_LIMIT=3] -->
+    <string name="del">c</string>
+
+    <!-- Content Descriptions -->
+    <eat-comment />
+
+    <!-- Content description for 'e' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_const_e">Euler\'s number</string>
+    <!-- Content description for 'π' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_const_pi">pi</string>
+
+    <!-- Content description for '.' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_dec_point">point</string>
+
+    <!-- Content description for '(' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_lparen">left parenthesis</string>
+    <!-- Content description for ')' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_rparen">right parenthesis</string>
+
+    <!-- Content description for 'cos' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_cos">cosine</string>
+    <!-- Content description for 'ln' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_ln">natural logarithm</string>
+    <!-- Content description for 'log' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_log">logarithm</string>
+    <!-- Content description for 'sin' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_sin">sine</string>
+    <!-- Content description for 'tan' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_tan">tangent</string>
+
+    <!-- Content description for '+' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_add">plus</string>
+    <!-- Content description for '÷' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_div">divide</string>
+
+    <!-- Content description for 'ok' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_ok">Valide</string>
+    <!-- Content description for '!' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_perc">percentage</string>
+    <!-- Content description for '×' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_mul">times</string>
+    <!-- Content description for '^' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_pow">power</string>
+    <!-- Content description for '√' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_sqrt">square root</string>
+    <!-- Content description for '-' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_sub">minus</string>
+
+    <!-- Content description for "clr" button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_clr">clear</string>
+    <!-- Content description for "del" button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_del">delete</string>
+    <!-- Content description for '=' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_eq">equals</string>
+    <string name="title_activity_client_list">ग्राहक</string>
+
+
+    <string name="title_activity_client_page">ग्राहक</string>
+    <string name="title_activity_invoice_list">चालान</string><!-- Factures -->
+    <string name="title_activity_invoice_details">टिकट</string>
+    <string name="error_empty_field_msg">कृपया इस फ़ील्ड को भरें</string>
+    <string name="double_zero">00</string>
+    <string name="triple_zero">000</string>
+    <string name="print_invoice_title">प्रिंट करें</string>
+
+
+    <string name="op_ok">OK</string>
+    <string name="search_contact_hint">नंबर के आधार पर खोजें</string>
+
+
+    <string name="client_deposit">गएक िपॉज़िट पंजीकृत करें</string>
+    <string name="delete_invoice">हटाए</string>
+    <string name="restore_invoice">चालान पुनर्स्थापित करें</string>
+    <string name="archived_invoices">हटाए गए चालान</string>
+
+    <string name="alphabetical_sorting">वर्णानुक्रम अनुसार सॉर्ट करें</string>
+    <string name="balance_sorting">देय राशि अनुसार सॉर्ट करें</string>
+
+    <string name="empty_field">फ़ील्ड खाली नहीं हो सकता</string>
+    <string name="numalreadyused">यह नंबर पहले से ही एक ग्राहक द्वारा उपयोग किया गया है</string>
+    <string name="numnomatch">संख्या मेल नहीं खाते</string>
+    <string name="dropit">रद्द करें</string>
+    <string name="validate">मान्य करें</string>
+    <string name="registerdepot">जमा करें</string>
+
+
+    <string name="emptysolde">कृपया राशि टाइप करें</string>
+    <string name="solderegistersuccess">डिपॉज़िट पंजीकृत की गई</string>
+    <string name="yes">हाँ</string>
+
+
+    <string name="defaultclient">सेल</string>
+
+    <string name="none_found">कोई उपकरण डिटेक्ट नहीं हुआ है</string>
+    <string name="select_device">कोई उपकरण चुनें</string>
+    <string name="none_paired">कोई उपकरण कनेक्ट नहीं हुआ है</string>
+    <string name="scanning">खोज रहें हैं...</string>
+    <string name="strLang">fr</string>
+    <string name="button_scan">स्कैन करें</string>
+
+
+    <!--
+
+
+
+
+
+     -->
+    <string name="btnSearch">ब्लूटूथ का उपयोग कर प्रिंटर कनेक्ट करें</string>
+
+
+    <string name="btnClose">बंद करें</string>
+    <string name="txt_content">&quot;&quot;</string>
+
+    <string name="error_mail_not_valid">अवैध ईमेल</string>
+
+    <string name="send_invoice_title">साझा करें</string>
+
+    <string name="reference">संदर्भ</string>
+    <string name="prix">मूल्य</string>
+    <string name="quantite">यूनिट</string>
+    <string name="select_customer">एक ग्राहक चुनें</string>
+    <string name="edited_client_ok">ग्राहक की जानकारी अपडेट की गई</string>
+
+    <string name="type_number_again">नंबर फिर से टाइप करें</string>
+    <string name="phone_number">फ़ोन नंबर</string>
+    <string name="name">नाम</string>
+    <string name="Balance">देय राशि</string>
+    <string name="mail">ईमेल</string>
+    <string name="user_info">अपनी जानकारी संपादित करें</string>
+    <string name="save_info_first">कृपया पहले अपना खाता कॉन्फ़िगर करें</string>
+    <string name="select_option">Select an option</string>
+    <string name="Take_picture">Take a photo</string>
+    <string name="Select_picture">Select a photo</string>
+    <string name="logo">Select logo</string>
+    <string name="Type_references">संचालन चुनिए</string>
+
+
+    <string name="invoice_saved">चालान सेव किये गए</string>
+    <string name="invoice_number">चालान : # </string>
+    <string name="invoice_depot_number">जमा करें : # </string>
+    <string name="total">कुल : </string>
+    <string name="Clientwithpositivebalancecreated">ग्राहक जोड़ा गया</string>
+    <string name="businessinfoupdated">जानकारी अपडेट की गई</string>
+    <string name="businessinfosetup">खाता कॉन्फ़िगर करें</string>
+    <string name="invoicenumber">चालान # :</string>
+    <string name="date">\nतिथि :</string>
+    <string name="totalinvoice">कुल :</string>
+    <string name="details">टिकट</string>
+    <string name="deleteinvoices">हटाए गए चालान</string>
+    <string name="confirm_restore_invoice">चालान रिस्टोर करने की पुष्टि करें</string>
+
+
+    <string name="client_need_tobecreated">कृपया पहले एक ग्राहक पंजीकृत करें</string>
+    <string name="exemple_depot"> उदाहरण : 5000</string>
+    <string name="ajouter_un_client">एक ग्राहक जोड़ें</string>
+    <string name="operations">संचालन (x)</string>
+    <string name="client">ग्राहक :</string>
+
+    <string name="businessinfo">नाम</string>
+    <string name="uploadreferences">रेफ़रन्स इम्पोर्ट करें</string>
+    <string name="configimprimante">प्रिंटर कॉन्फ़िगर करें</string>
+
+    <string name="nobluetoothpaired">ब्लूटूथ सक्रिय नहीं है</string>
+    <string name="printingprocessing">प्रिंट हो रहा हैं...</string>
+
+    <string name="blueconnectinlost">प्रिंटर कनेक्ट किया हुआ नहीं है</string>
+    <string name="blueconnectionsuccess">प्रिंटर कनेक्ट किया हुआ है</string>
+
+
+    <string name="telegrambuildertitle">टेलीग्राम डाउनलोड करें</string>
+    <string name="telegrambuildermsg">टेलीग्राम डाउनलोड करने के लिए ठीक हैं पर क्लिक करें</string>
+    <string name="weebibotsettitle">रोबोट वीबी कॉन्फ़िगर करें</string>
+    <string name="weebibotsetmsg">रोबोट वीबी को कॉन्फ़िगर करने के लिए इस लिंक पर क्लिक करें</string>
+
+
+    <string name="telegram_not_installed">टेलीग्राम इनस्टॉल किया हुआ नहीं है</string>
+
+
+    <string name="shop_name">"नाम : "</string>
+    <string name="shop_call">" \nनंबर: "</string>
+    <string name="client_name">" \nग्राहक का नाम: "</string>
+    <string name="client_call">" \nग्राहक का नंबर: "</string>
+    <string name="vente">" \nबिक्री "</string>
+    <string name="facture_of">"\nचालान की तिथि : "</string>
+    <string name="montant">"\nराशि : "</string>
+    <string name="montant_egale">"राशि = "</string>
+    <string name="depot">"\nजमा करें "</string>
+    <string name="solde_ajoute">"\nजमा करें :"</string>
+    <string name="reference_unit_total">" संदर्भ        / U / कुल "</string>
+    <string name="solde_final">"\nनयी देय राशि:         "</string>
+    <string name="merci">\nआपकी निष्ठा के लिए धन्यवाद. \n</string>
+    <string name="depot_du">"जमा करने की तिथि "</string>
+    <string name="edit_client">ग्राहक की जानकारी संपादित करें</string>
+
+
+    <string name="enregistrer_acompte">एक डिपॉज़िट पंजीकृत करें</string>
+
+    <string name="ajouter_robot_weebi">रोबोट वीबी जोड़ें</string>
+    <string name="facture_enregistree">चालान सेव किये गए</string>
+    <string name="archives_factures">हटाए गए चालान</string>
+    <string name="facture">चालान</string>
+    <string name="facture_supprimee">चालान हटाए गए</string>
+    <string name="credit_client">" \nग्राहक का क्रेडिट: "</string>
+    <string name="ligne">\n ______________________________\n</string>
+    <string name="espace_total">"\n              कुल : "</string>
+    <!--<string name="cfa">"ETB"</string>-->
+    <string name="oui">हाँ</string>
+    <string name="annuler">रद्द करें</string>
+    <string name="confirmer_suppressio_facture">"चालान रिस्टोर करने की पुष्टि करें"</string>
+    <string name="liste_des_clients">ग्राहक सूची</string>
+    <string name="enregistrer_depot">\"\"</string>
+    <string name="liste_des_factures_button">चालान की सूची बनाए</string>
+
+
+    <string name="enregistrer_une_vente">Weebi</string>
+    <string name="start_scan">स्कैन करें</string>
+    <string name="de">से </string>
+
+    <string name="choix_langue">भाषा चुनिए</string>
+    <string name="anglais">English</string>
+    <string name="français">French</string>
+    <string name="arabe">Arab</string>
+    <string name="filtrer_par_date">तिथि के अनुसार फ़िल्टर करें</string>
+    <string name="filtrer_par_balance">देय राशि अनुसार फ़िल्टर करें</string>
+
+    <string-array name="database">
+
+
+        <item>divers</item> 
+              
+    </string-array>
+    <string name="Currency">मुद्रा</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="remboursement">पेबैक</string>
+    <string name="facebook_app_id">136691900177350</string>
+    <string name="ajouter_une_r_f_rence">Add a reference</string>
+    <string name="reference_existe">Reference is already added</string>
+    <string name="add_reference">Ajouter une reference</string>
+    <string name="nom_reference">Name reference</string>
+    <string name="r_f_rences">संदर्भ</string>
+    <string name="modifier_reference">Update une reference</string>
+    <string name="title_reference">References</string>
+    <string name="inscription">inscription</string>
+    <string name="email" />
+    <string name="lenom">Password</string>
+    <string name="hint_password">password</string>
+    <string name="sinscrire">Inscription</string>
+    <string name="sauvegarder" />
+    <string name="connexion">Connexion</string>
+    <string name="con_firebase">Connexion</string>
+    <string name="connectionreussi">Connexion réussi :</string>
+    <string name="connectionechec">Connexion échoué</string>
+    <string name="authenticatefailed">Authentification échouée</string>
+    <string name="inscriptionreussi">Inscription Réussi</string>
+    <string name="createuserfbgood">createUserWithEmail:onComplete:</string>
+    <string name="pasemailgoogle">Pas d\'email google</string>
+    <string name="soldeimpression">\nSolde :</string>
+    <string name="dateticket">Date : </string>
+    <string name="sauvegardedonnees">Données sauvegardées</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

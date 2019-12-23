@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatever="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/pad_numeric_background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.andreabaccega.widget.FormEditText
+            android:id="@+id/boutik_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/rubber_stamp"
+            android:drawablePadding="8dp"
+            android:drawableTint="@color/pad_advanced_background_color"
+            android:hint="@string/businessinfo"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/darker_gray"
+            whatever:emptyErrorString="@string/empty_field"
+            whatever:testType="nocheck" />
+
+        <com.andreabaccega.widget.FormEditText
+            android:id="@+id/boutik_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_call_white_24dp"
+            android:drawablePadding="8dp"
+            android:drawableTint="@color/pad_advanced_background_color"
+            android:hint="@string/phone_number"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/darker_gray"
+            whatever:emptyErrorString="@string/empty_field"
+            whatever:testErrorString="@string/error_phone_not_valid"
+            whatever:testType="numeric" />
+
+        <!--<com.andreabaccega.widget.FormEditText
+            android:id="@+id/boutik_number2"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_number_again"
+            whatever:emptyErrorString="@string/empty_field"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            whatever:testType="numeric"
+            whatever:testErrorString="@string/error_phone_not_valid"
+            android:drawableLeft="@drawable/ic_call_white_24dp"
+            android:drawablePadding="8dp"
+            android:drawableTint="@color/pad_advanced_background_color"
+            android:inputType="number"/>-->
+
+
+        <Spinner
+            android:id="@+id/choixlangue"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:gravity="center"
+            android:text="choix langues" />
+
+        <!-- <Button
+             android:id="@+id/list_invoice"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:text="@string/title_activity_invoice_list" />
+
+         <Button
+             android:id="@+id/robotweebi"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:text="@string/weebibotsettitle" />-->
+
+        <Button
+            android:id="@+id/config_imprimante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/configimprimante" />
+
+        <!--<Button
+            android:id="@+id/telegram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Robot Weebi" />-->
+        <Button
+            android:id="@+id/sauvegarder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/save" />
+       <!-- <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/restaurer"
+            android:gravity="center"
+            android:text="restaurer"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/testact"
+            android:gravity="center"
+            android:text="Sauvegarde anciennes"
+            android:visibility="invisible"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/clientsql"
+            android:gravity="center"
+            android:text="ClientSQL"/>-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombout"
+            android:gravity="center"
+            android:text="nom bout sql"
+            android:visibility="invisible"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chargerfichier"
+            android:gravity="center"
+            android:text="Charger référence"
+            android:visibility="invisible"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/oknewboutik"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ok"
+                android:tint="@color/tintgreen" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/boutik_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|top"
+            android:src="@drawable/weebilogo" />
+
+    </LinearLayout>
+
+</ScrollView>

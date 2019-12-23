@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/display_background_color"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/layoutgche"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#000"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/selecte"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ok"
+            android:gravity="end" />
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listerefsql"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp">
+
+    </ListView>
+
+</RelativeLayout>

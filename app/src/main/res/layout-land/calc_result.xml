@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/display_background_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/une"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/md_blue_600">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Weebi"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/un"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/pad_numeric_background_color"
+        android:layout_below="@+id/une">
+
+        <TextView
+            android:id="@+id/ref"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="References"
+            android:textColor="#ffffff"
+            android:padding="5dp"/>
+        <TextView
+            android:id="@+id/qte"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:text="Prix Unitaire (FCFA)"
+            android:textColor="#ffffff"
+            android:gravity="end"
+            android:layout_toRightOf="@+id/ref"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+
+    <ListView
+        android:id="@+id/listeref"
+        android:layout_width="668dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/un">
+    </ListView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/listeref">
+        <include
+            layout="@layout/calc_references"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/deux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:text="QT"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/balance"
+                    android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:id="@+id/txtResultId"
+                    android:text=""
+                    android:hint=""
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.45"
+                    android:textColor="#000"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="20sp"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="35dp"
+                android:background="@color/pad_numeric_background_color" />
+
+
+            <EditText
+                android:id="@+id/search_ref"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Saisir la référence"
+                android:layout_weight="3"
+                android:cursorVisible="false"
+                android:completionThreshold="1"
+                android:textColor="#000"/><!-- cette ligne permet de faire la recherche à partir d'une lettre-->
+
+            <!--<TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="11dp"
+                android:inputType="numberDecimal"
+                android:text="Qt : "
+                android:textAlignment="center"
+                android:layout_weight="0.2"
+                />
+            android:background="@color/md_indigo_A100"/
+            <TextView
+                android:id="@+id/txtResultId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="11dp"
+                android:text="1"
+                android:textAlignment="center"
+                android:layout_weight="0.3"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="11dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                />-->
+
+
+               <!-- android:background="@color/md_indigo_A100"-->
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

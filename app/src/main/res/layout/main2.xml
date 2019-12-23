@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/printdemoall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSearch"></Button>
+
+        <EditText
+            android:id="@+id/txt_content"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:gravity="center_vertical|top"
+            android:text="@string/txt_content"
+            android:textSize="16sp">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/print_invoice_title">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Button>
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnClose"></Button>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/printdemomsgtv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="40sp" />
+
+</LinearLayout>

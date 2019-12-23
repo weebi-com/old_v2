@@ -1,0 +1,24 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.weebinatidi.ui.ClientPageActivity">
+
+    <!-- ajouté par pisco
+
+    <item android:icon="@drawable/print"
+        app:showAsAction="ifRoom"
+        android:title="@string/print_invoice_title"
+        android:id="@+id/print_invoice_action"/>
+
+
+    <item
+        android:icon="@drawable/add_coins"
+        app:showAsAction="ifRoom"
+        android:title="@string/client_deposit"
+        android:id="@+id/client_deposit"/>
+     fin ajout pisco
+    <item
+        android:icon="@drawable/edit_user"
+        app:showAsAction="ifRoom"
+        android:title="@string/edit_client"
+        android:id="@+id/edit_client"/>-->
+
+</menu>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.weebinatidi.ui.Factures_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginLeft="105dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Factures liées: "
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nbrefacture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="#000"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:id="@+id/addqte"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/tag_plus"
+                        android:gravity="end"
+                        android:backgroundTint="#fff"/>
+                </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/price"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/updateprice"
+                            android:layout_gravity="end"
+                            android:backgroundTint="#FFF"
+                            android:layout_marginTop="10dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:id="@+id/editref"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/editref"
+                        android:gravity="end"
+                        android:backgroundTint="#FFF"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/suppref"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/tag_remove"
+                        android:gravity="end"
+                        android:backgroundTint="#FFF"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/deposit_liste"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="30dp"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+<!-- -->
+</RelativeLayout>

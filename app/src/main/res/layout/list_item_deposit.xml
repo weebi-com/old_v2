@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/voir"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text=""
+            android:background="@drawable/consulte" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="14dp">
+
+            <TextView
+                android:id="@+id/deposit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="depot"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deposit_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="montant"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:focusable="false"
+                android:visibility="invisible"
+                android:textColor="@android:color/black" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

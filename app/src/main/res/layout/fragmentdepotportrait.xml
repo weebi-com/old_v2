@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.weebinatidi.ui.Depots">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/soldetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:padding="5dp"
+                android:text="Solde : "
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/solde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/soldetext"
+                android:padding="5dp"
+                android:text="25 000 "
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/boutfacture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="voir factures" />
+        </RelativeLayout>
+        <!--<com.google.android.gms.plus.PlusOneButton xmlns:plus="http://schemas.android.com/apk/lib/com.google.android.gms.plus"
+            android:id="@+id/plus_one_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            plus:annotation="inline"
+            plus:size="standard"
+            android:layout_below="@+id/soldeettext"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/pad_numeric_background_color" />
+
+            <ListView
+                android:id="@+id/deposit_liste"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="60dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

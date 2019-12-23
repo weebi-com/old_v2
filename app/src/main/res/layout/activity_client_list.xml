@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.weebinatidi.ui.ClientListActivity">
+
+
+    <co.moonmonkeylabs.realmsearchview.RealmSearchView
+        android:id="@+id/search_client_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:divider="@null"
+        android:dividerPadding="8dp"
+        android:padding="8dp"
+        android:visibility="gone"
+        app:rsvHint="@string/search_contact_hint" />
+
+    <EditText
+        android:id="@+id/champdesaisie"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/search_contact_hint"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/search_client_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/menu"
+            android:gravity="end"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/search"
+            android:backgroundTint="#fff"
+            android:gravity="end" />
+
+        <Button
+            android:id="@+id/add_cliente"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/add_user"
+            android:gravity="end" />
+
+        <Button
+            android:id="@+id/client_balance_sort"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/search"
+            android:background="@drawable/generic_sorting"
+            android:gravity="end" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

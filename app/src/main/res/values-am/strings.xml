@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Name of the application. [CHAR_LIMIT=NONE] -->
+    <string name="app_name">weebi</string>
+
+    <!-- Error displayed when expression evaluates to NaN. [CHAR_LIMIT=14] -->
+    <string name="error_nan">Not a number</string>
+    <!-- Error displayed when expression contains a syntax error. [CHAR_LIMIT=14] -->
+    <string name="error_syntax">Error</string>
+
+    <!-- Abbrev. name of cosine function (e.g. "cos(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_cos">cos</string>
+    <!-- Natural logarithm function (e.g. "ln(2)"). [CHAR_LIMIT=3] -->
+    <string name="fun_ln">ln</string>
+    <!-- Logarithm function (e.g. "log(10)"). [CHAR_LIMIT=3] -->
+    <string name="fun_log">log</string>
+    <!-- Abbrev. name of sine function (e.g. "sin(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_sin">sin</string>
+    <!-- Abbrev. name of tangent function (e.g. "tan(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_tan">tan</string>
+
+    <!-- Clear operation to clear the currently entered expression. [CHAR_LIMIT=3] -->
+    <string name="clr">ac</string>
+    <!-- Delete operation to remove last entered token. [CHAR_LIMIT=3] -->
+    <string name="del">c</string>
+
+    <!-- Content Descriptions -->
+    <eat-comment />
+
+    <!-- Content description for 'e' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_const_e">Euler\'s number</string>
+    <!-- Content description for 'π' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_const_pi">pi</string>
+
+    <!-- Content description for '.' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_dec_point">point</string>
+
+    <!-- Content description for '(' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_lparen">left parenthesis</string>
+    <!-- Content description for ')' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_rparen">right parenthesis</string>
+
+    <!-- Content description for 'cos' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_cos">cosine</string>
+    <!-- Content description for 'ln' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_ln">natural logarithm</string>
+    <!-- Content description for 'log' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_log">logarithm</string>
+    <!-- Content description for 'sin' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_sin">sine</string>
+    <!-- Content description for 'tan' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_tan">tangent</string>
+
+    <!-- Content description for '+' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_add">plus</string>
+    <!-- Content description for '÷' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_div">divide</string>
+
+    <!-- Content description for 'ok' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_ok">Valide</string>
+    <!-- Content description for '!' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_perc">percentage</string>
+    <!-- Content description for '×' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_mul">times</string>
+    <!-- Content description for '^' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_pow">power</string>
+    <!-- Content description for '√' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_sqrt">square root</string>
+    <!-- Content description for '-' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_sub">minus</string>
+
+    <!-- Content description for "clr" button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_clr">clear</string>
+    <!-- Content description for "del" button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_del">delete</string>
+    <!-- Content description for '=' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_eq">equals</string>
+    <string name="title_activity_client_list">ደንበኞች</string>
+
+
+    <string name="title_activity_client_page">ደንበኛ</string>
+    <string name="title_activity_invoice_list">ደረሰኞች</string><!-- Factures -->
+    <string name="title_activity_invoice_details">ማብራሪያ</string>
+    <string name="error_empty_field_msg">አስደሰተ መሙያ ሙያ</string>
+    <string name="double_zero">00</string>
+    <string name="triple_zero">000</string>
+    <string name="print_invoice_title">ማተም</string>
+
+
+    <string name="op_ok">OK</string>
+    <string name="search_contact_hint">ፍለጋ ቁጥር</string>
+
+
+    <string name="client_deposit">የስም ዝርዝር ዝቃጭ </string>
+    <string name="delete_invoice">ሰረዘ</string>
+    <string name="restore_invoice">ተመለሰ ፋክቱር መፃፍ</string>
+    <string name="archived_invoices">ሰረዘ ፋክቱር መፃፍ</string>
+
+    <string name="alphabetical_sorting">ደርድር የፊደል ተራ ስርአት</string>
+    <string name="balance_sorting">ደርድር የተደላደለ</string>
+
+    <string name="empty_field">ሙያ ቻለ አይደለም ጭር ያለ</string>
+    <string name="numalreadyused">ይህ እኚህ ቁጥር ገና ጥቅም</string>
+    <string name="numnomatch">ቁጥሮች አትሥራ ግጥሚያ</string>
+    <string name="dropit">ሰረዘ</string>
+    <string name="validate">አረጋገጠ</string>
+    <string name="registerdepot">ዝቃጭ</string>
+
+
+    <string name="emptysolde">አስደሰተ አይነት መጠን</string>
+    <string name="solderegistersuccess">ዝቃጭ መዝገብ</string>
+    <string name="yes">አዎ</string>
+
+
+    <string name="defaultclient">ሽያጭ</string>
+
+    <string name="none_found">አይ መሳሪያ ፈልጎ አገኘ </string>
+    <string name="select_device">የተመረጠ ምርጥ መሳሪያ</string>
+    <string name="none_paired">አይ መሳሪያ ማገናኘት</string>
+    <string name="scanning">ፍተሻ ፍለጋ...</string>
+    <string name="strLang">fr</string>
+    <string name="button_scan">ቅኝት</string>
+
+
+    <!--
+
+
+
+
+
+     -->
+    <string name="btnSearch">ተገናኘ አሳታሚ ሰው መሳሪያ</string>
+
+
+    <string name="btnClose">ተዘጋ</string>
+    <string name="txt_content">&quot;&quot;</string>
+
+    <string name="error_mail_not_valid">ካለጎዶሎነት ደብዳቤዎች በፖስታ ቤት የሚላኩ</string>
+
+    <string name="send_invoice_title">መጋሪያ</string>
+
+    <string name="reference">ምረጥ ክወና</string>
+    <string name="prix">ዋጋ</string>
+    <string name="quantite">አሃድ</string>
+    <string name="select_customer">መረጠ ደንበኛ</string>
+    <string name="edited_client_ok">ደንበኛ የስልክ ማዞሪያ አዘምን</string>
+
+    <string name="type_number_again">አይነት ቁጥር እንደገና</string>
+    <string name="phone_number">ስልክ ቁጥሮች</string>
+    <string name="name">ስም</string>
+    <string name="Balance">ሚዛን</string>
+    <string name="mail">ደብዳቤዎች በፖስታ ቤት የሚላኩ</string>
+    <string name="user_info">አርትዕ ያንተ የስልክ ማዞሪያ</string>
+    <string name="save_info_first">አስደሰተ አንደኛ ውቀር ያንተ መለያ</string>
+    <string name="select_option">የተመረጠ ምርጥ አማራጭ</string>
+    <string name="Take_picture">ወሰደ ጊዜ  ስእል ገፅታ</string>
+    <string name="Select_picture">ምረጥ  ስእል ገፅታ</string>
+    <string name="logo">የተመረጠ ምርጥ  ገፅታ</string>
+    <string name="Type_references">ምረጥ ክወና</string>
+
+
+    <string name="invoice_saved">ፋክቱር መፃፍ  ተቀምጧል</string>
+    <string name="invoice_number">ፋክቱር መፃፍ : #</string>
+    <string name="invoice_depot_number">ዝቃጭ  : # </string>
+    <string name="total">ሙሉ : </string>
+    <string name="Clientwithpositivebalancecreated">ደንበኛ አክል</string>
+    <string name="businessinfoupdated">የስልክ ማዞሪያ አዘምን</string>
+    <string name="businessinfosetup">መለያ ውቀር</string>
+    <string name="invoicenumber">የዋጋ ዝርዝር # :</string>
+    <string name="date">\nጊዜ :</string>
+    <string name="totalinvoice">ሙሉ :</string>
+    <string name="details">ማብራሪያ</string>
+    <string name="deleteinvoices">ሰረዘ</string>
+    <string name="confirm_restore_invoice">አጠነከረ ተመለሰ ፋክቱር መፃፍ</string>
+
+
+    <string name="client_need_tobecreated">አስደሰተ አንደኛ የስም ዝርዝር ደንበኛ</string>
+    <string name="exemple_depot"> ለምሳሌ : 5000</string>
+    <string name="ajouter_un_client">አክል ደንበኛ</string>
+    <string name="operations">ቀዶ ጥገና (x)</string>
+    <string name="client">ደንበኛ :</string>
+
+    <string name="businessinfo">ስም</string>
+    <string name="uploadreferences">ቁም ነገር ማመሳከሪያ</string>
+    <string name="configimprimante">ውቀር አሳታሚ ሰው መሳሪያ</string>
+
+    <string name="nobluetoothpaired">ብሉቱዝ ማግበር አይደለም</string>
+    <string name="printingprocessing">እትመት...</string>
+
+    <string name="blueconnectinlost">አሳታሚ ሰው መሳሪያ አይደለም</string>
+    <string name="blueconnectionsuccess">አሳታሚ ሰው መሳሪያ ነው ተገናኘ</string>
+
+
+    <string name="telegrambuildertitle">አውርድ Telegram</string>
+    <string name="telegrambuildermsg">ለማውረድ እሺ ላይ ጠቅ ያድርጉ Telegram</string>
+    <string name="weebibotsettitle">ውቀር ሮቦት weebi</string>
+    <string name="weebibotsetmsg">ለማዋቀር ይህን አገናኝ ጠቅ ያድርጉ weebi</string>
+
+
+    <string name="telegram_not_installed">Telegram ነው አይደለም አስገባ</string>
+
+
+    <string name="shop_name">"ስም : "</string>
+    <string name="shop_call">" \nቁጥር: "</string>
+    <string name="client_name">" \nደንበኛ ስያሜ መጠሪያ: "</string>
+    <string name="client_call">" \nደንበኛ ቁጥር: "</string>
+    <string name="vente">" \" \nሽያጭ "</string>
+    <string name="facture_of">"\nፋክቱር መፃፍ ጊዜ : "</string>
+    <string name="montant">"\nመጠን : "</string>
+    <string name="montant_egale">"መጠን = "</string>
+    <string name="depot">"\nዝቃጭ "</string>
+    <string name="solde_ajoute">"\nዝቃጭ :"</string>
+    <string name="reference_unit_total">" ማመሳከሪያ        / U / Total "</string>
+    <string name="solde_final">"\nአዲስ ልክ መጣ :         "</string>
+    <string name="merci">\nየታማኝነት አመስግኑ. \n</string>
+    <string name="depot_du">"ዝቃጭ ጊዜ "</string>
+    <string name="edit_client">ደንበኛ  ብርድ</string>
+
+
+    <string name="enregistrer_acompte">የስም ዝርዝር ዝቃጭ</string>
+
+    <string name="ajouter_robot_weebi">ሮቦት ለማከል weebi</string>
+    <string name="facture_enregistree">ፋክቱር መፃፍ</string>
+    <string name="archives_factures">ሰረዘ ፋክቱር መፃፍ</string>
+    <string name="facture">"ፋክቱር መፃፍ"</string>
+    <string name="facture_supprimee">ፋክቱር መፃፍ ሰረዘ</string>
+    <string name="credit_client">" \nደንበኛ  ብርድ : "</string>
+    <string name="ligne">\n ______________________________\n</string>
+    <string name="espace_total">"\n              Total : "</string>
+    <!--<string name="cfa">"ETB"</string>-->
+    <string name="oui">አዎ</string>
+    <string name="annuler">ሰረዘ</string>
+    <string name="confirmer_suppressio_facture">"አጠነከረ ሰረዘ "</string>
+    <string name="liste_des_clients">ዝርዝር ደንበኛ</string>
+    <string name="enregistrer_depot">"የስም ዝርዝር ዝቃጭ"</string>
+    <string name="liste_des_factures_button">ዝርዝር ፋክቱር መፃፍ</string>
+
+
+    <string name="enregistrer_une_vente">Weebi</string>
+    <string name="start_scan">ቅኝት</string>
+    <string name="de">የ </string>
+
+    <string name="choix_langue">የተመረጠ ምርጥ ቃላት</string>
+    <string name="anglais">የእንግሊዝ</string>
+    <string name="français">ፈረንሳይኛ</string>
+    <string name="arabe">አረብ</string>
+    <string name="filtrer_par_date">ማጣሪያ ጊዜ</string>
+    <string name="filtrer_par_balance">ማጣሪያ ልክ መጣ</string>
+
+    <string-array name="database">
+
+
+        <item>ልዩ ልዩ</item> 
+              
+    </string-array>
+    <string name="Currency">ETB</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="remboursement">መተኪያ</string>
+    <string name="facebook_app_id">136691900177350</string>
+    <string name="ajouter_une_r_f_rence">ማጣቀሻ ለማከል</string>
+    <string name="reference_existe" />
+    <string name="add_reference">ማጣቀሻ ያክሉ</string>
+    <string name="nom_reference">ስም ማጣቀሻ</string>
+    <string name="r_f_rences">ማጣቀሻዎች</string>
+    <string name="modifier_reference">ማጣቀሻ አርትዕ</string>
+    <string name="title_reference">ማጣቀሻዎች</string>
+    <string name="inscription">inscription</string>
+    <string name="email" />
+    <string name="lenom">Password</string>
+    <string name="hint_password">password</string>
+    <string name="sinscrire">Inscription</string>
+    <string name="sauvegarder" />
+    <string name="connexion">Connexion</string>
+    <string name="con_firebase">Connexion</string>
+    <string name="connectionreussi">Connexion réussi :</string>
+    <string name="connectionechec">Connexion échoué</string>
+    <string name="authenticatefailed">Authentification échouée</string>
+    <string name="inscriptionreussi">Inscription Réussi</string>
+    <string name="createuserfbgood">createUserWithEmail:onComplete:</string>
+    <string name="pasemailgoogle">Pas d\'email google</string>
+    <string name="soldeimpression">\nSolde :</string>
+    <string name="dateticket">ጊዜ : </string>
+    <string name="sauvegardedonnees">Données sauvegardées</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

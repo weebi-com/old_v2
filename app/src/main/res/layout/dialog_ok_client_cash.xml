@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pad_numeric_background_color"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <!--    android:inputType="textPersonName" -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linenom">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nom du client"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/lenom"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Amadou"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linenum"
+        android:layout_below="@+id/linenom">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Numero client"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/lenum"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="26"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linefact"
+        android:layout_below="@+id/linenum">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Facture"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/lafact"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:gravity="right"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:text="(FCFA)"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linerecu"
+        android:layout_below="@+id/linefact"
+        android:visibility="invisible">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Reçu"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/recu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:text=""
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:background="@color/tintgreen"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:text="(FCFA)"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linerendre"
+        android:layout_below="@+id/linerecu">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="A rendre"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rendre"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:gravity="right"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:text="(FCFA)"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </LinearLayout>-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linerecu"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/annulecashcli"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:src="@drawable/annuler" />
+        <ImageView
+            android:id="@+id/okconfcash"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:src="@drawable/ok"
+            android:tint="@color/md_indigo_A100" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

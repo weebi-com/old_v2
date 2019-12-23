@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@color/pad_numeric_background_color"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/trash" />
+
+        <Button
+            android:id="@+id/delete_invoice_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/pad_numeric_background_color"
+            android:paddingLeft="30dp"
+            android:text="@string/delete_invoice"
+            android:textColor="@color/display_background_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/print" />
+
+        <Button
+            android:id="@+id/print_invoice_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/pad_numeric_background_color"
+            android:paddingLeft="30dp"
+            android:text="@string/print_invoice_title"
+            android:textColor="@color/display_background_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line2"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/edit_client"
+            android:background="@drawable/share" />
+
+        <Button
+            android:id="@+id/send_invoice_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/pad_numeric_background_color"
+            android:paddingLeft="30dp"
+            android:text="@string/send_invoice_title"
+            android:textColor="@color/display_background_color" />
+    </LinearLayout>
+</RelativeLayout>

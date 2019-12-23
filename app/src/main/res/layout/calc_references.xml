@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/display_background_color"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/pad_numeric_background_color" />
+
+    <TextView
+        android:id="@+id/deux"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:textColor="#fff"
+        android:background="@color/md_blue_600"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:text="@string/sale_in_progress"
+        android:textColor="#fff"
+        android:layout_below="@+id/deux"
+        android:background="@color/pad_numeric_background_color"
+        android:gravity="center"/>
+
+
+
+    <ListView
+        android:id="@+id/v2_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="10dp"/>
+
+    <!--<ListView
+        android:id="@+id/listecli"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp">
+    </ListView>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/v2_list_item"
+        android:layout_above="@+id/relative">
+
+        <Button
+            android:id="@+id/btnmoin"
+            android:text="@string/delete"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/calculator_error_color"/>
+
+        <LinearLayout
+            android:id="@+id/lignecli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/btnmoin"
+            android:layout_marginTop="30dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="@drawable/homme"
+                android:backgroundTint="#000"/>
+            <TextView
+                android:id="@+id/choixcli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/choose_a_customer"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/lignecli">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="@drawable/banknotes"
+                android:backgroundTint="#000"/>
+            <TextView
+                android:id="@+id/modepayement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/mode_of_payment"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/couleurlogo"
+        android:orientation="horizontal"
+        android:id="@+id/relative"
+        android:layout_marginBottom="70dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/txtTOTAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bill"
+            android:textColor="#fff"/>
+        <TextView
+            android:id="@+id/resultat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_toRightOf="@+id/txtTOTAL"
+            android:textColor="#fff"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/totaldernierefact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total : "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:visibility="invisible"/>
+
+
+        <ImageView
+            android:id="@+id/print1id"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/print"
+            android:tint="#000"/>
+        <!--<TextView
+            android:id="@+id/dateheureder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="heure : "
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_below="@+id/totaldernierefact"
+            android:visibility="invisible"
+            android:layout_toRightOf="@+id/print1id"/>-->
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<com.weebinatidi.ui.TitleLayout
+    android:id="@+id/cus_title"
+    android:layout_width="wrap_content"
+    android:layout_height="47dp"
+    android:visibility="invisible"></com.weebinatidi.ui.TitleLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:gravity="center_vertical"
+    android:weightSum="3"
+    android:visibility="invisible">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Model："
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/sv_printername"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:spinnerMode="dropdown" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_margin="5dp"
+    android:gravity="center_vertical"
+    android:weightSum="3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Type de Connection："
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/sv_connecttype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:entries="@array/connecttype" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:gravity="center_vertical"
+    android:weightSum="3"
+    android:visibility="invisible">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Transfer Type："
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/sv_transfertype"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="2"
+        android:gravity="center" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:gravity="center_vertical"
+    android:weightSum="3"
+    android:visibility="invisible">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Device Name："
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_devicename"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="2"
+        android:text="Not Connected" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:gravity="center_vertical"
+    android:weightSum="3"
+    android:visibility="invisible">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Device Address："
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_deviceaddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="2"
+        android:text="Not Connected" />
+
+</LinearLayout>
+
+<TextView
+    android:id="@+id/tv_connect"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    android:background="@drawable/back_button"
+    android:gravity="center"
+    android:padding="8dp"
+    android:text="Connect"
+    android:textColor="#fff" />
+
+<TextView
+    android:id="@+id/tv_test"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/back_button"
+    android:gravity="center"
+    android:padding="8dp"
+    android:text="Test"
+    android:textColor="#fff"
+    android:visibility="invisible"/>
+</LinearLayout>

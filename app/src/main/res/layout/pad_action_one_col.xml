@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.weebinatidi.ui.widget.CalculatorPadLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/PadLayoutStyle.Action"
+    android:background="@color/pad_numeric_background_color"
+    android:columnCount="1"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:rowCount="4">
+
+
+    <!--<ImageButton
+        android:id="@+id/add_client"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/add_user"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:contentDescription="ajouter un client"
+        android:layout_margin="0dp"
+        android:onClick="onActionClick"/>-->
+
+
+    <ImageButton
+        android:id="@+id/list_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="liste des clients"
+        android:onClick="onActionClick"
+
+        android:scaleType="centerInside"
+        android:src="@drawable/address_book" />
+
+    <!--<ImageButton
+        android:id="@+id/list_invoice"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/cash_register"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:contentDescription="liste des factures"
+        android:layout_margin="0dp"
+        android:onClick="onActionClick"/>-->
+    <ImageButton
+        android:id="@+id/lesrefs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="liste des factures"
+        android:onClick="onActionClick"
+        android:scaleType="centerInside"
+        android:src="@drawable/references" />
+
+    <ImageButton
+        android:id="@+id/export_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="export database"
+        android:onClick="onActionClick"
+        android:scaleType="centerInside"
+        android:src="@drawable/stocks" />
+
+
+    <!--android:tint="@color/pad_advanced_background_color"-->
+
+    <!-- android:src="@drawable/shop"-->
+    <ImageButton
+        android:id="@+id/shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+
+        android:adjustViewBounds="true"
+        android:contentDescription="depot d'un client"
+        android:onClick="onActionClick"
+        android:scaleType="centerInside"
+        android:src="@drawable/settings" />
+
+
+    <!--<View style="@style/PadButtonStyle.Operator" />
+
+        android:tint="@color/pad_advanced_background_color"-->
+</com.weebinatidi.ui.widget.CalculatorPadLayout>

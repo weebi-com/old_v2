@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootlinearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.weebinatidi.ui.weebi2.SalesByPeriodActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_date"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/couleurlogo"
+            android:text=" Choisir la periode   "
+            android:textColor="@color/md_white_1000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="DU" />
+
+
+        <TextView
+            android:id="@+id/tv_day"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+        <TextView
+            android:layout_marginLeft="80dp"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AU" />
+
+        <TextView
+            android:id="@+id/tv_day_end"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_marginLeft="80dp"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vous avez vendu : " />
+
+        <TextView
+            android:id="@+id/tv_daily_amount"
+            android:layout_marginLeft="25dp"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_sub_top_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/layout_top"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VENTES A CREDIT : "
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_credit_sales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginRight="30dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VENTES CASH : "
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_cash_sales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginRight="2dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_sub_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ll_sub_top_top"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/couleurlogo"
+            android:text=" Choisir  la plage horaire "
+            android:layout_marginStart="10dp"
+            android:textColor="@color/md_white_1000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:text="Entre" />
+
+
+        <TextView
+            android:id="@+id/tv_hour_and_minute"
+            android:paddingTop="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+        <TextView
+            android:layout_marginStart="80dp"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Et" />
+
+        <TextView
+            android:id="@+id/tv_hour_and_minute_end"
+            android:paddingTop="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/tv_text2"
+            android:layout_marginStart="80dp"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vous avez vendu : " />
+
+        <TextView
+            android:id="@+id/tv_amount"
+            android:layout_marginStart="25dp"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_sub_top"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/lv_ref"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/layoutgche"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#000"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/menu"
+            android:gravity="end"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/print_invoice_action"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/print" />
+
+
+        <Button
+            android:id="@+id/partage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/share" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/contenuticket"
+        layout="@layout/layout_tickete_dep_sql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/layoutgche" />
+
+</RelativeLayout>

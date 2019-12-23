@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/display_background_color"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="wrap_content"
+        android:background="@color/pad_numeric_background_color" />
+
+    <TextView
+        android:id="@+id/deux"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:textColor="#fff"
+        android:background="@color/md_blue_600"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:text="Vente en cours"
+        android:textColor="#fff"
+        android:layout_below="@+id/deux"
+        android:background="@color/pad_numeric_background_color"
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/v2_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.weebinatidi.ui.ClientListActivity">
+
+    <!--<item
+        android:icon="@drawable/add_user"
+        app:showAsAction="ifRoom"
+        android:title="Ajouter un client"
+        android:id="@+id/add_client" />
+
+    <item android:icon="@drawable/generic_sorting"
+        app:showAsAction="ifRoom"
+        android:title="@string/balance_sorting"
+        android:id="@+id/client_balance_sort"/>
+    <item
+        android:icon="@drawable/alphabetical_sorting"
+        app:showAsAction="ifRoom"
+        android:title="@string/alphabetical_sorting"
+        android:id="@+id/client_alphabetical_sort"/>-->
+
+
+    <item
+        android:id="@+id/client_archived"
+        android:icon="@drawable/cancel_subscription"
+        android:title="@string/alphabetical_sorting"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

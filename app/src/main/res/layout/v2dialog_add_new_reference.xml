@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatever="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pad_numeric_background_color"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <!--    android:inputType="textPersonName" -->
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/refname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="8dp"
+        android:drawableTint="@color/pad_advanced_background_color"
+        android:hint="@string/nom_reference"
+        android:inputType="textCapSentences"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="16sp"
+        whatever:emptyErrorString="@string/empty_field"
+        whatever:testType="nocheck" />
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/refprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="8dp"
+        android:drawableTint="@color/pad_advanced_background_color"
+        android:hint="price"
+        android:inputType="textCapSentences"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="16sp"
+        whatever:emptyErrorString="@string/empty_field"
+        whatever:testType="nocheck" />
+
+
+    <ImageView
+        android:id="@+id/oknewref"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ok"
+        android:tint="@color/tintgreen" />
+
+</LinearLayout>

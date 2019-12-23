@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.weebinatidi.ui.weebi2.SalesOfDayActivity">
+
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:text="Ventes du Jour"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/md_black_1000"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_sales"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@id/top"
+        android:background="@color/couleurlogo"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tv_sales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="TOTAL DES VENTES DU JOUR"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:id="@+id/tv_sales_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="0"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_sales_by_credit"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@id/top"
+        android:background="#fd5c63"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tv_sales_by_credit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="VENTES A CREDIT"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:id="@+id/tv_sales_by_credit_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="0"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_sales_by_cash"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@id/top"
+        android:background="#00a98f"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tv_sales_by_cash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="VENTES CLIENTS FIDELES"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:id="@+id/tv_sales_by_cash_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="0"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_sales_cash"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@id/top"
+        android:background="#e01563"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tv_sales_cash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="VENTES CASH"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:id="@+id/tv_sales_cash_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="0"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_forget_sales"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@id/top"
+        android:background="#fdbd10"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tv_forget_sales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="VENTES OUBLIEES"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tv_forget_sales_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="0"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add_forget_sales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:clickable="true"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#fff"
+        app:borderWidth="0dp"
+        app:srcCompat="@drawable/add_forgotten_sales" />
+
+
+</LinearLayout>

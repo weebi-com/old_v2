@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="@color/pad_numeric_background_color"
+    android:columnCount="1"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:rowCount="4"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weebi"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+
+    <!--<ImageButton
+        android:id="@+id/list_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="liste des clients"
+        android:onClick="onActionClick"
+
+        android:scaleType="centerInside"
+        android:src="@drawable/address_book" />
+
+    <ImageButton
+        android:id="@+id/lesrefs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="liste des factures"
+        android:onClick="onActionClick"
+        android:scaleType="centerInside"
+        android:src="@drawable/references" />
+
+    <ImageButton
+        android:id="@+id/export_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="export database"
+        android:onClick="onActionClick"
+        android:scaleType="centerInside"
+        android:src="@drawable/stocks" />
+
+
+
+     android:src="@drawable/shop"
+    <ImageButton
+        android:id="@+id/shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+
+        android:adjustViewBounds="true"
+        android:contentDescription="depot d'un client"
+        android:onClick="onActionClick"
+        android:scaleType="centerInside"
+        android:src="@drawable/settings" />
+
+
+    -<View style="@style/PadButtonStyle.Operator" />
+
+        android:tint="@color/pad_advanced_background_color"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/Blist_clientb"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/address_book"
+            android:onClick="onActionClick"
+            android:scaleType="centerInside" />
+        <Button
+            android:id="@+id/Blist_ref"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="20dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/references"
+            android:scaleType="centerInside"
+            android:onClick="onActionClick"
+            android:layout_below="@+id/Blist_clientb"/>
+        <Button
+            android:id="@+id/Bstats"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/stocks"
+            android:onClick="onActionClick"
+            android:scaleType="centerInside"
+            android:layout_below="@+id/Blist_ref"/>
+        <Button
+            android:id="@+id/Bparam"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="0dp"
+            android:adjustViewBounds="true"
+            android:onClick="onActionClick"
+            android:background="@drawable/settings"
+            android:scaleType="centerInside"
+            android:layout_below="@+id/Bstats"/>
+
+    </RelativeLayout>
+</RelativeLayout>

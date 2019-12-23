@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/caisse"
+            android:icon="@drawable/cash_register"
+            android:title="Caisse/Cash" />
+        <item
+            android:id="@+id/clients"
+            android:icon="@drawable/address_book"
+            android:title="@string/customers" />
+        <item
+            android:id="@+id/references"
+            android:icon="@drawable/references"
+            android:title="Inventaire" />
+
+        <item
+            android:id="@+id/parametres"
+            android:icon="@drawable/settings"
+            android:title="@string/settings" />
+        <!--<item-->
+        <!--android:id="@+id/referencesgros"-->
+        <!--android:icon="@drawable/imprefs"-->
+        <!--android:title="@string/choose_your_references" />-->
+        <item
+            android:id="@+id/facturessup"
+            android:icon="@drawable/factsup"
+            android:title="Factures supprimees" />
+        <item
+            android:id="@+id/impsd"
+            android:icon="@drawable/sdcard"
+            android:title="Import references SD" />
+        <!--<item
+            android:id="@+id/exportDbToCsv"
+            android:title="Exporter la base au format CSV"
+            android:icon="@drawable/ic_csv"
+            />-->
+
+        <item
+            android:id="@+id/sauvegarder"
+            android:icon="@drawable/sauvegarde"
+            android:title="Sauvegarder" />
+        <item
+            android:id="@+id/password"
+            android:icon="@drawable/password"
+            android:title="Changer le code" />
+        <!--<item
+            android:id="@+id/lespurchase"
+            android:title="Purchaseref" />-->
+    </group>
+
+    <item android:title="Imprimante">
+        <menu>
+            <item
+                android:id="@+id/add_printer"
+                android:icon="@drawable/add_printer"
+                android:title="1-Configurer l'imprimante" />
+
+            <item
+                android:id="@+id/config_imprimante"
+                android:icon="@drawable/parametrerprinter"
+                android:title="2-Connecter l'imprimante a weebi" />
+        </menu>
+    </item>
+
+    <item android:title="@string/sales_analysis">
+        <menu>
+            <item
+                android:id="@+id/sales_of_day"
+                android:icon="@drawable/cash_multiple"
+                android:title="@string/sales_of_the_day" />
+
+            <item
+                android:id="@+id/action_sales_by_period"
+                android:icon="@drawable/ic_date_span"
+                android:title="Suivi des ventes par période" />
+        </menu>
+    </item>
+
+    <item android:title="Exportation des donnees">
+        <menu>
+            <item
+                android:id="@+id/export_csv_by_day"
+                android:icon="@drawable/database"
+                android:title="Exportez vos donnees en CSV" />
+
+        </menu>
+    </item>
+
+    <item android:title="Mise A Jour">
+        <menu>
+            <item
+                android:id="@+id/update_database"
+                android:icon="@drawable/ic_data_backup"
+                android:title="Mise à jour manquée" />
+        </menu>
+    </item>
+
+    <item android:title="Version de la base">
+        <menu>
+            <item
+                android:id="@+id/databaseversion"
+                android:icon="@drawable/database"
+                android:title="Cliquer ici" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/display_background_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/une"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/md_blue_600">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Weebi"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/un"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/pad_numeric_background_color"
+        android:layout_below="@+id/une">
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/trois"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/pad_numeric_background_color"
+        android:layout_below="@+id/un">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="References"
+            android:textColor="#ffffff"
+            android:padding="5dp"/>
+
+
+    </RelativeLayout>
+
+
+
+    <ListView
+        android:id="@+id/listeref"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/trois">
+    </ListView>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="#000"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/deux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/search_ref"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:hint="@string/enter_the_reference"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="5"
+                android:cursorVisible="false"
+                android:completionThreshold="1"><!-- cette ligne permet de faire la recherche à partir d'une lettre-->
+            </EditText>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingTop="11dp"
+                android:inputType="numberDecimal"
+                android:text="@string/quantity"
+                android:textAlignment="center"
+                android:layout_weight="2"
+                android:textColor="#fff"/>
+                <!--android:background="@color/md_indigo_A100"/-->
+            <TextView
+                android:id="@+id/txtResultId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingTop="11dp"
+                android:inputType="numberDecimal"
+                android:text="1"
+                android:textAlignment="center"
+                android:layout_weight="2.1"
+                android:textColor="#fff"/>
+               <!-- android:background="@color/md_indigo_A100"-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/deux">
+            <include
+                layout="@layout/clavier_portrait"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

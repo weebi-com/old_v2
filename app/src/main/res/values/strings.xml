@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Name of the application. [CHAR_LIMIT=NONE] -->
+    <string name="app_name">weebi</string>
+
+    <!-- Error displayed when expression evaluates to NaN. [CHAR_LIMIT=14] -->
+    <string name="error_nan">Not a number</string>
+    <!-- Error displayed when expression contains a syntax error. [CHAR_LIMIT=14] -->
+    <string name="error_syntax">Error</string>
+
+    <!-- Abbrev. name of cosine function (e.g. "cos(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_cos">cos</string>
+    <!-- Natural logarithm function (e.g. "ln(2)"). [CHAR_LIMIT=3] -->
+    <string name="fun_ln">ln</string>
+    <!-- Logarithm function (e.g. "log(10)"). [CHAR_LIMIT=3] -->
+    <string name="fun_log">log</string>
+    <!-- Abbrev. name of sine function (e.g. "sin(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_sin">sin</string>
+    <!-- Abbrev. name of tangent function (e.g. "tan(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_tan">tan</string>
+
+    <!-- Clear operation to clear the currently entered expression. [CHAR_LIMIT=3] -->
+    <string name="clr">ac</string>
+    <!-- Delete operation to remove last entered token. [CHAR_LIMIT=3] -->
+    <string name="del">c</string>
+
+    <!-- Content Descriptions -->
+    <eat-comment />
+
+    <!-- Content description for 'e' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_const_e">Euler\'s number</string>
+    <!-- Content description for 'π' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_const_pi">pi</string>
+
+    <!-- Content description for '.' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_dec_point">point</string>
+
+    <!-- Content description for '(' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_lparen">left parenthesis</string>
+    <!-- Content description for ')' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_rparen">right parenthesis</string>
+
+    <!-- Content description for 'cos' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_cos">cosine</string>
+    <!-- Content description for 'ln' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_ln">natural logarithm</string>
+    <!-- Content description for 'log' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_log">logarithm</string>
+    <!-- Content description for 'sin' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_sin">sine</string>
+    <!-- Content description for 'tan' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_tan">tangent</string>
+
+    <!-- Content description for '+' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_add">plus</string>
+    <!-- Content description for '÷' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_div">divide</string>
+
+    <!-- Content description for 'ok' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_ok">Valide</string>
+    <!-- Content description for '!' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_perc">percentage</string>
+    <!-- Content description for '×' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_mul">times</string>
+    <!-- Content description for '^' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_pow">power</string>
+    <!-- Content description for '√' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_sqrt">square root</string>
+    <!-- Content description for '-' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_sub">minus</string>
+
+    <!-- Content description for "clr" button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_clr">clear</string>
+    <!-- Content description for "del" button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_del">delete</string>
+    <!-- Content description for '=' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_eq">equals</string>
+    <string name="title_activity_client_list">Directory</string>
+
+
+    <string name="title_activity_client_page">Client</string>
+    <string name="title_activity_invoice_list">Invoices</string><!-- Factures -->
+    <string name="title_activity_invoice_details">Ticket</string>
+    <string name="error_empty_field_msg">Please fill this field</string>
+    <string name="double_zero">00</string>
+    <string name="triple_zero">000</string>
+    <string name="print_invoice_title">Print</string>
+
+
+    <string name="op_ok">OK</string>
+    <string name="search_contact_hint">Search by number</string>
+
+
+    <string name="client_deposit">Register a deposit </string>
+    <string name="delete_invoice">Delete</string>
+    <string name="restore_invoice">Restore invoice</string>
+    <string name="archived_invoices">Deleted invoices</string>
+
+    <string name="alphabetical_sorting">Sort by alphabetical order</string>
+    <string name="balance_sorting">Sort by balance</string>
+
+    <string name="empty_field">Field cannot be empty</string>
+    <string name="numalreadyused">This number is already used by a client</string>
+    <string name="numnomatch">Numbers do not match</string>
+    <string name="dropit">Cancel</string>
+    <string name="validate">Validate</string>
+    <string name="registerdepot">Deposit</string>
+
+
+    <string name="emptysolde">Please type an amount</string>
+    <string name="solderegistersuccess">Deposit registered</string>
+    <string name="yes">Yes</string>
+
+
+    <string name="defaultclient">Sale</string>
+
+    <string name="none_found">No device detected</string>
+    <string name="select_device">Select a device</string>
+    <string name="none_paired">No device connected</string>
+    <string name="scanning">Searching...</string>
+    <string name="strLang">fr</string>
+    <string name="button_scan">Scan</string>
+
+
+    <!--
+
+
+
+
+
+     -->
+    <string name="btnSearch">Connect printer using bluetooth</string>
+
+
+    <string name="btnClose">Close</string>
+    <string name="txt_content">&quot;&quot;</string>
+
+    <string name="error_mail_not_valid">Invalide email</string>
+
+    <string name="send_invoice_title">Share</string>
+
+    <string name="reference">Reference</string>
+    <string name="prix">Price</string>
+    <string name="quantite">Unit</string>
+    <string name="select_customer">Choose a client</string>
+    <string name="edited_client_ok">Client information updated</string>
+
+    <string name="type_number_again">Type number again</string>
+    <string name="phone_number">Phone number</string>
+    <string name="name">Name</string>
+    <string name="Balance">Balance</string>
+    <string name="mail">Email</string>
+    <string name="user_info">Edit your information</string>
+    <string name="save_info_first">Please first configure your account</string>
+    <string name="select_option">Select an option</string>
+    <string name="Take_picture">Take a photo</string>
+    <string name="Select_picture">Select a photo</string>
+    <string name="logo">Select logo</string>
+    <string name="Type_references">Select operation</string>
+
+
+    <string name="invoice_saved">Invoice saved</string>
+    <string name="invoice_number">Invoice : # </string>
+    <string name="invoice_depot_number">Deposit : # </string>
+    <string name="total">Total : </string>
+    <string name="Clientwithpositivebalancecreated">Client added</string>
+    <string name="businessinfoupdated">Informations updated</string>
+    <string name="businessinfosetup">Account configure</string>
+    <string name="invoicenumber">Invoice # :</string>
+    <string name="date">\nDate :</string>
+    <string name="totalinvoice">Total :</string>
+    <string name="details">Ticket</string>
+    <string name="deleteinvoices">Deleted invoice</string>
+    <string name="confirm_restore_invoice">Confirm restoring invoice</string>
+
+
+    <string name="client_need_tobecreated">Please first register a customer</string>
+    <string name="exemple_depot"> Example : 5000</string>
+    <string name="ajouter_un_client">Add a client</string>
+    <string name="operations">Opérations (x)</string>
+    <string name="client">Client :</string>
+
+    <string name="businessinfo">Name</string>
+    <string name="uploadreferences">Import references</string>
+    <string name="configimprimante">Configure printer</string>
+
+    <string name="nobluetoothpaired">Bluetooth is not activated</string>
+    <string name="printingprocessing">Printing...</string>
+
+    <string name="blueconnectinlost">Printer is not connected</string>
+    <string name="blueconnectionsuccess">Printer is connected</string>
+
+
+    <string name="telegrambuildertitle">Download Telegram</string>
+    <string name="telegrambuildermsg">Click ok to download Telegram</string>
+    <string name="weebibotsettitle">Configure robot weebi</string>
+    <string name="weebibotsetmsg">Click this link to configure robot weebi</string>
+
+
+    <string name="telegram_not_installed">Telegram is not installed</string>
+
+
+    <string name="shop_name">"Name"</string>
+    <string name="shop_call">"Number"</string>
+    <string name="client_name">"Client name"</string>
+    <string name="client_call">"Client number"</string>
+    <string name="vente">" \nSale "</string>
+    <string name="facture_of">"\nInvoice date : "</string>
+    <string name="montant">"\nAmount : "</string>
+    <string name="montant_egale">"Amount = "</string>
+    <string name="depot">"\nDeposit "</string>
+    <string name="solde_ajoute">"\nDeposit :"</string>
+    <string name="reference_unit_total">" Reference        / U / Total "</string>
+    <string name="solde_final">"\nNew balance :         "</string>
+    <string name="merci">Thanks for your loyalty. \n\n</string>
+    <string name="depot_du">"Deposit date "</string>
+    <string name="edit_client">Edit client information</string>
+
+
+    <string name="enregistrer_acompte">Register a deposit</string>
+
+    <string name="ajouter_robot_weebi">Add the robot weebi</string>
+    <string name="facture_enregistree">Invoice saved</string>
+    <string name="archives_factures">Deleted invoices</string>
+    <string name="facture">"Invoice"</string>
+    <string name="facture_supprimee">Invoice deleted</string>
+    <string name="credit_client">" \nClient credit : "</string>
+    <string name="ligne">\n ______________________________\n</string>
+    <string name="espace_total">"\n              Total : "</string>
+    <!--<string name="cfa">"ETB"</string>-->
+    <string name="oui">Yes</string>
+    <string name="annuler">Cancel</string>
+    <string name="confirmer_suppressio_facture">"confirm restoring invoice "</string>
+    <string name="liste_des_clients">Clients list</string>
+    <string name="enregistrer_depot">\"\"</string>
+    <string name="liste_des_factures_button">List Invoices</string>
+
+
+    <string name="enregistrer_une_vente">Weebi</string>
+    <string name="start_scan">Scan</string>
+    <string name="de">From : </string>
+
+    <string name="choix_langue">Select language</string>
+    <string name="anglais">English</string>
+    <string name="français">French</string>
+    <string name="arabe">Arab</string>
+    <string name="filtrer_par_date">Filter by date</string>
+    <string name="filtrer_par_balance">Filter by balance</string>
+
+    <string-array name="database">
+
+
+        <item>divers</item>
+
+    </string-array>
+    <string name="Currency">choose currency</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="remboursement">payback</string>
+    <string name="facebook_app_id">136691900177350</string>
+    <string name="ajouter_une_r_f_rence">Add a reference</string>
+    <string name="reference_existe">Reference is already added</string>
+    <string name="add_reference">Ajouter une reference</string>
+    <string name="nom_reference">Name reference</string>
+    <string name="r_f_rences">References</string>
+    <string name="modifier_reference">Update une reference</string>
+    <string name="title_reference">References</string>
+    <string name="connexion">Connexion</string>
+    <string name="inscription">inscription</string>
+    <string name="con_firebase">Connexion</string>
+    <string name="email">Email</string>
+    <string name="lenom">Password</string>
+    <string name="hint_password">password</string>
+    <string name="sinscrire">Inscription</string>
+    <string name="sauvegarder" />
+    <string name="connectionreussi">Connexion réussi </string>
+    <string name="connectionechec">Connexion échoué</string>
+    <string name="authenticatefailed">Authentification échouée</string>
+    <string name="inscriptionreussi">Inscription Réussi</string>
+    <string name="createuserfbgood">createUserWithEmail:onComplete:</string>
+    <string name="pasemailgoogle">Pas d\'email google</string>
+    <string name="soldeimpression">\nSolde : </string>
+    <string name="dateticket">Date : </string>
+    <string name="sauvegardedonnees">Données sauvegardées</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- String imprimante-->
+    <string name="comName">comName</string>
+    <string name="title_activity_factures_">Factures_Activity</string>
+    <string name="title_activity_depots_">Depots_Activity</string>
+    <string name="title_activity_version2">Version2</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_interface_v2">InterfaceV2</string>
+    <string name="title_activity_new_weebi">NewWeebi</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_sales_of_day">Sales Of Day</string>
+
+
+    <!-- Navigation Drawers -->
+    <string name="customers">Customers</string>
+    <string name="references">References</string>
+    <string name="sales_of_the_day">Suivi de la caisse par jour</string>
+    <string name="settings">Settings</string>
+    <string name="choose_your_references">Choose your references</string>
+
+    <!-- Keyboard -->
+    <string name="delete">remove</string>
+    <string name="choose_a_customer">Choose a customer</string>
+    <string name="mode_of_payment">mode of payment</string>
+    <string name="bill">Bill : </string>
+
+    <!-- Keyboard Portrait UI -->
+    <string name="quantity">Quantity :</string>
+    <string name="enter_the_reference">Enter the reference</string>
+    <string name="sale_in_progress">Sale in progress</string>
+
+    <!-- Dialog Settings -->
+    <string name="save">SAVE</string>
+
+    <!-- Client Item Selected  -->
+    <string name="number_of_invoices">Number of invoices :</string>
+    <string name="balance">Balance : </string>
+    <string name="current_balance">Current balance : </string>
+    <string name="total_selected_invoices">Total selected invoices :</string>
+    <string name="future_balance_if_bills_are_paid">Future balance if bills are paid :</string>
+    <string name="name_and_packaging">NAME AND PACKAGING</string>
+    <string name="unit_price">UNIT PRICE</string>
+    <string name="linked_invoices">Linked invoices :</string>
+    <string name="change_price">Change price </string>
+
+
+    <string name="left_to_pay">Left To Pay</string>
+
+
+    <string name="stock">STOCK</string>
+    <string name="sales_by_hour">Sales/hour</string>
+    <string name="sales_by_day">SALES/DAY</string>
+    <string name="sales_analysis">Statistiques</string>
+    <string name="title_activity_sales_by_day">Ventes par Période</string>
+    <string name="title_activity_daily_sales">Vente Journalières</string>
+
+
+    <!-- Bluetooth Settings -->
+    <string name="text_bluetooth_off">Bluetooth desactive</string>
+    <string name="text_bluetooth_on">Bluetooth active</string>
+    <string name="text_enable">ACTIVER LE BLUETOOTH</string>
+    <string name="text_disable">DESACTIVER LE BLUETOOTH</string>
+    <string name="text_view_paired">Imprimante Connecter</string>
+    <string name="text_scan_devices">Recherchez imprimante</string>
+    <string name="text_stop_scan">Recherchez imprimante</string>
+    <string name="text_list_paired_devices">Imprimante Connecter</string>
+    <string name="text_list_devices">Liste des Imprimantes</string>
+    <string name="text_pair">Connecter</string>
+
+
+    <string name="connect_printer_to_device">CONNECTER L\'IMPRIMANTE A LA TABLETTE</string>
+    <string name="connect_printer_to_weebi">CONNECTER L\'IMPRIMANTE A WEEBI</string>
+    <string name="connect_printer_by_usb">Connecter l\'imprimante avec le cable</string>
+    <string name="deleted_invoice_list">Factures supprimées</string>
+
+
+</resources>

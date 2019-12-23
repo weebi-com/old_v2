@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+
+
+    <!--<item android:icon="@drawable/generic_sorting"
+        app:showAsAction="ifRoom"
+        android:title="@string/filtrer_par_balance"
+        android:id="@+id/filter_invoices_bybalance"/>
+
+    <item android:icon="@drawable/historical"
+        app:showAsAction="ifRoom"
+        android:title="@string/filtrer_par_date"
+        android:id="@+id/filter_invoices_bydateascordesc"/>
+
+    <item android:icon="@drawable/cancel_subscription"
+        app:showAsAction="ifRoom"
+        android:title="@string/archived_invoices"
+        android:id="@+id/show_delete_invoices"/>-->
+
+</menu>
